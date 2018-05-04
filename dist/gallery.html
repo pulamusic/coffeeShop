@@ -1,0 +1,204 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon">
+    <title>Coffeeshop Site</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <header class="site-header gallery">
+      <div class="container">
+        <div class="header-content">
+          <div class="top-section">
+            <div class="logo">
+              <a href="index.html">
+                <img src="../assets/img/logo.svg" alt="logo">
+              </a>
+            </div>
+            <div class="menus">
+              <nav class="social-menu">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+              </nav>
+
+              <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="medium">
+                <button class="menu-icon" type="button" data-toggle="main-nav"></button>
+                <div class="title-bar-title">Menu</div>
+              </div>
+
+              <nav id="main-nav" class="main-navigation" data-animate="menu-in menu-out">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="process.html">Process</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </nav>
+            </div>
+          </div>
+          <div class="bottom-section">
+            <h1 class="slogan">Enjoy a Delicious Cup of Coffee</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    
+    <div class="container">
+      <main class="main-content page-gallery">
+        <h2 class="heading-title">Live the <span>experience</span></h2>
+      </main>
+    </div>
+    
+    <!-- Includes the our_gallery.html partial -->
+    <div class="container">
+      <div class="gallery-top">
+        <div class="left-content">
+          <div class="gallery-item">
+            <a href="#" data-open="image0">
+              <img src="../assets/img/gallery/gallery_01_small.jpg" alt="Gallery 1">
+            </a>
+          </div>
+        </div>
+        <div class="right-content">
+          <div class="right-container">
+            <div class="gallery-item two-cols">
+              <a href="#" data-open="image1">
+                <img src="../assets/img/gallery/gallery_02_small.jpg" alt="Gallery 2">
+              </a>
+            </div>
+            <div class="gallery-item">
+              <a href="#" data-open="image2">
+                <img src="../assets/img/gallery/gallery_03_small.jpg" alt="Gallery 3">
+              </a>
+            </div>
+            <div class="gallery-item">
+              <a href="#" data-open="image3">
+                <img src="../assets/img/gallery/gallery_04_small.jpg" alt="Gallery 4">
+              </a>
+            </div>
+            <div class="gallery-item two-cols">
+              <a href="#" data-open="image4">
+                <img src="../assets/img/gallery/gallery_05_small.jpg" alt="Gallery 5">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-bottom">
+        <div class="gallery-item two-cols">
+          <a href="#" data-open="image5">
+            <img src="../assets/img/gallery/gallery_06_small.jpg" alt="Gallery 6">
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="#" data-open="image6">
+            <img src="../assets/img/gallery/gallery_07_small.jpg" alt="Gallery 7">
+          </a>
+        </div>
+        <div class="right-content">
+          <div class="gallery-item">
+            <a href="#" data-open="image7">
+              <img src="../assets/img/gallery/gallery_08_small.jpg" alt="Gallery 8">
+            </a>
+          </div>
+          <div class="gallery-item">
+            <a href="#" data-open="image8">
+              <img src="../assets/img/gallery/gallery_09_small.jpg" alt="Gallery 9">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal -->
+    
+      <div class="reveal medium" id="image0" data-reveal data-animation-in="reveal-in" data-animation-out="reveal-out">
+        <img src="assets/img/gallery/gallery_01_large.jpg">
+        <buttom class="close-button" data-close type="button">
+          <span aria-hidden="true">&times;</span>
+        </buttom>
+      </div>
+      <div class="reveal medium" id="image1" data-reveal data-animation-in="reveal-in" data-animation-out="reveal-out">
+        <img src="assets/img/gallery/gallery_02_large.jpg">
+        <buttom class="close-button" data-close type="button">
+          <span aria-hidden="true">&times;</span>
+        </buttom>
+      </div>
+      <div class="reveal medium" id="image2" data-reveal data-animation-in="reveal-in" data-animation-out="reveal-out">
+        <img src="assets/img/gallery/gallery_03_large.jpg">
+        <buttom class="close-button" data-close type="button">
+          <span aria-hidden="true">&times;</span>
+        </buttom>
+      </div>
+      <div class="reveal medium" id="image3" data-reveal data-animation-in="reveal-in" data-animation-out="reveal-out">
+        <img src="assets/img/gallery/gallery_04_large.jpg">
+        <buttom class="close-button" data-close type="button">
+          <span aria-hidden="true">&times;</span>
+        </buttom>
+      </div>
+      <div class="reveal medium" id="image4" data-reveal data-animation-in="reveal-in" data-animation-out="reveal-out">
+        <img src="assets/img/gallery/gallery_05_large.jpg">
+        <buttom class="close-button" data-close type="button">
+          <span aria-hidden="true">&times;</span>
+        </buttom>
+      </div>
+      <div class="reveal medium" id="image5" data-reveal data-animation-in="reveal-in" data-animation-out="reveal-out">
+        <img src="assets/img/gallery/gallery_06_large.jpg">
+        <buttom class="close-button" data-close type="button">
+          <span aria-hidden="true">&times;</span>
+        </buttom>
+      </div>
+      <div class="reveal medium" id="image6" data-reveal data-animation-in="reveal-in" data-animation-out="reveal-out">
+        <img src="assets/img/gallery/gallery_07_large.jpg">
+        <buttom class="close-button" data-close type="button">
+          <span aria-hidden="true">&times;</span>
+        </buttom>
+      </div>
+      <div class="reveal medium" id="image7" data-reveal data-animation-in="reveal-in" data-animation-out="reveal-out">
+        <img src="assets/img/gallery/gallery_08_large.jpg">
+        <buttom class="close-button" data-close type="button">
+          <span aria-hidden="true">&times;</span>
+        </buttom>
+      </div>
+      <div class="reveal medium" id="image8" data-reveal data-animation-in="reveal-in" data-animation-out="reveal-out">
+        <img src="assets/img/gallery/gallery_09_large.jpg">
+        <buttom class="close-button" data-close type="button">
+          <span aria-hidden="true">&times;</span>
+        </buttom>
+      </div>
+    
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-box">
+            <h3>Location</h3>
+            <p>44 Shirley Ave.</p>
+            <p>West Chicago, IL 60185</p>
+          </div>
+          <div class="footer-box">
+            <h3>Reservations</h3>
+            <p>Call us:</p>
+            <p>202-555-0126</p>
+          </div>
+          <div class="footer-box">
+            <h3>Hours</h3>
+            <p>Mon-Thu 11:00 AM - 11:00 PM</p>
+            <p>Fri-Sat 9:00 AM - 11:00 PM</p>
+            <p>Closed Sunday</p>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">&copy; 2018 The Coffee Shop</p>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
